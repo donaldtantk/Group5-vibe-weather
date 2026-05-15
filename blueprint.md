@@ -17,6 +17,8 @@ This application displays the current weather for a user-provided or geolocated 
 - **AI-Generated Poem:** A short, positive poem reflecting the weather and location.
 - **Text-to-Speech:** A "Speak the Poem" button reads the generated poem aloud using the browser's Web Speech API.
 - **Ambient Audio:** Context-aware background audio that matches the weather and cultural context of the location (Note: Currently logged to console, not played).
+- **Capture Weather Card:** A dedicated button that allows users to capture a snapshot of the weather card.
+- **Snapshot to Clipboard:** Uses the `html2canvas` library to generate a visual snapshot of the weather data and copies it to the user's clipboard for easy sharing.
 
 ### Design and UX
 - **Dynamic Theming:** The application's color palette, fonts, and background texture adapt to the current weather conditions (e.g., a warm, sunny theme vs. a cool, rainy theme).
